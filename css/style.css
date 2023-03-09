@@ -11,22 +11,24 @@ body {
 
 @media (min-width: 768px) {
     .navbar-expand-md .navbar-collapse {
-    display: flex!important;
-    flex-basis: auto;
-    justify-content: flex-end;}
+        display: flex !important;
+        flex-basis: auto;
+        justify-content: flex-end;
+    }
 
-    #list{
-        display: flex ;
+    #list {
+        display: flex;
         flex-direction: row !important;
     }
-   
+
 
 }
+
 @media (min-width: 1024px) {
     #anuncio {
         position: fixed !important;
         margin: 0;
-        width: 15% !important ;
+        width: 15% !important;
 
     }
 
@@ -59,17 +61,17 @@ body {
     align-items: center;
 }
 
-#list2{
+#list2 {
     display: flex;
     justify-content: center;
 }
 
 .zoom {
-    transition: transform .2s; 
+    transition: transform .2s;
 }
- 
+
 .zoom:hover {
-    transform: scale(1.5); 
+    transform: scale(1.5);
     opacity: 1;
     -webkit-transition: opacity 500ms;
     -moz-transition: opacity 500ms;
